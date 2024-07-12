@@ -6,7 +6,7 @@ const onOpen = (_) =>
 const openSidebar = (_) =>
   DocumentApp.getUi().showSidebar(
     HtmlService.createHtmlOutputFromFile("index").setTitle(
-      "DocAI - Gemini API"
+      "DocAI - Gemini by AVSC"
     )
   );
 
